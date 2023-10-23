@@ -109,7 +109,7 @@ $row = $result->fetch_assoc();
             <div class="row mb-3">
                 <div class="col-2 ms-auto row">
                     <div class="col-6 d-grid mx-auto">
-                        <button type="submit" name="DELETE" class="btn btn-primary">Delete</button>
+                        <button type="submit" name="DELETE" class="btn btn-warning">Delete</button>
                     </div>
                 </div>
             </div>
@@ -123,4 +123,3 @@ $row = $result->fetch_assoc();
 require_once('footer.php');
 ?>
 
-<button type="button" class="btn btn-primary">Primary</button>
